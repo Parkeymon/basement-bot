@@ -28,7 +28,7 @@ client.on('message', message => {
     }
     catch(error){
         console.error(error);
-        message.channel.send('An error occured. Dont @ me.')
+        message.channel.send('An error occured.')
     }
 });
 
@@ -46,4 +46,4 @@ client.on('ready', () => {
 });
 
 
-client.loing(config.bottoken);
+client.login(config.bottoken);
